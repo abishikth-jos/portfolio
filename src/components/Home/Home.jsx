@@ -24,19 +24,19 @@ const Home = () => {
       className='flex px-8 sm:px-4 pt-[160px] sm:pt-[200px] lg:pt-[165px] justify-center bg-gradient-180 from-bgColor to-bgColorAlt overflow-x-hidden pb-[180px] sm:pb-[0px] dark:from-bgColorDark dark:to-bgColorDark scrollbar-hide'
       id='home'
     >
-      <div className='min-h-screen grid items-center grid-rows-flow-2 xs:gap-20 sm:gap-28 lg:grid-cols-2 3xl:gap-96'>
+      <div className='grid items-center min-h-screen grid-rows-flow-2 xs:gap-20 sm:gap-28 lg:grid-cols-2 3xl:gap-96'>
         {/* left side */}
         <div className='relative top-[15%] sm:top-[-8%] p-3 w-full text-white grid gird-rows-flow-6 gap-2 order-2 lg:order-1'>
           <p className='uppercase tracking-[0.05em] leading-[1.7] font-[700] text-titleColor dark:text-textColorDark flex items-center justify-center sm:justify-start'>
             Hello,
-            <span className='text-large block text-primaryColor'>
+            <span className='block text-large text-primaryColor'>
               &nbsp;My Name Is
             </span>
           </p>
 
           <h1 className='uppercase tracking-[0.05em] text-h2Size sm:text-[70px] font-[700] flex sm:items-start justify-center items-center drop-shadow-textShadow leading-[1.2] mt-[15px] flex-col gap-2 sm:gap-0'>
             <span className='text-primaryColor'>Iman&nbsp;&nbsp;K.&nbsp;</span>
-            <span>Bakhtiarvand</span>
+            <span>Arvand</span>
           </h1>
 
           <p className='font-[700] leading-[1.7] flex items-center justify-center sm:justify-start'>
@@ -136,7 +136,7 @@ const Home = () => {
           <div className='uppercase absolute bottom-[-23%] left-[-5%] sm:bottom-[20%] sm:left-[2%] border-[3px] border-solid border-borderColor bg-containerColor sm:shadow-[5px_5px_rgba(0,0,0,0.2)] dark:sm:shadow-[5px_5px_rgba(0,0,0,0.3)] shadow-[5px_5px_rgba(0,0,0,0.3)] dark:shadow-[5px_5px_rgba(255,255,255,0.3)] px-[5px] xs:px-[10px] sm:px-[20px] xs:w-[165px] w-[145px] sm:w-[250px] sm:h-[82px] rounded-[82px] flex items-center z-[1]'>
             <span className='w-[50%] text-titleColor font-[700] text-center text-[30px] sm:text-[40px] flex items-center gap-2'>
               <AnimatedNumbers
-                animateToNumber='3'
+                animateToNumber='5'
                 locale='en'
                 configs={[
                   { mass: 1, tension: 220, friction: 100 },

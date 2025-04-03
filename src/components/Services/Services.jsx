@@ -33,7 +33,7 @@ const Services = () => {
       </p>
 
       <Swiper
-        className='mySwiper text-center'
+        className='text-center mySwiper'
         modules={[Autoplay, Pagination]}
         loop={true}
         autoplay={{

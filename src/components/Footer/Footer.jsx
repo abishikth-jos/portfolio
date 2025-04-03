@@ -115,10 +115,10 @@ export default function Footer() {
         {/* Footer Section One */}
         <div className='m-16 lg:flex lg:items-center lg:justify-between'>
           <div>
-            <h3 className='text-largest font-semibold leading-6 text-titleColor dark:text-titleColorDark text-center sm:text-left '>
+            <h3 className='font-semibold leading-6 text-center text-largest text-titleColor dark:text-titleColorDark sm:text-left '>
               Subscribe to our newsletter
             </h3>
-            <p className='mt-2 text-large leading-6 text-gray-300 text-textColor dark:text-textColorDark text-center sm:text-left'>
+            <p className='mt-2 leading-6 text-center text-gray-300 text-large text-textColor dark:text-textColorDark sm:text-left'>
               The latest articles, and advices, sent to your inbox.
             </p>
           </div>
@@ -198,13 +198,13 @@ export default function Footer() {
           </div>
 
           <div className='flex justify-center uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-            &copy; 2023&nbsp; <span className='text-primaryColor'>imankh</span>.
+            &copy; 2023&nbsp; <span className='text-primaryColor'>ArvandCO</span>.
             All Rights Reserved
           </div>
 
           <div className='uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark flex justify-center lg:justify-end'>
             Developed By&nbsp;{' '}
-            <span className='text-primaryColor'>Iman Khaki</span>
+            <span className='text-primaryColor'>Iman Arvand</span>
           </div>
         </div>
       </div>

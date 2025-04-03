@@ -10,6 +10,55 @@
   --white: hsl(0, 100%, 100%);
   --black: hsl(0, 0%, 0%);
 
+  /* spacing system */
+  --space-3xs: 0.25rem; /* 4px */
+  --space-2xs: 0.5rem;  /* 8px */
+  --space-xs: 0.75rem;  /* 12px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 2rem;     /* 32px */
+  --space-xl: 2.5rem;   /* 40px */
+  --space-2xl: 3rem;    /* 48px */
+  --space-3xl: 4rem;    /* 64px */
+  --space-4xl: 5rem;    /* 80px */
+  
+  /* component specific spacing */
+  --header-padding: var(--space-md);
+  --section-padding: var(--space-3xl) 0;
+  --container-padding: 0 var(--space-lg);
+  --card-padding: var(--space-md);
+  --button-padding: var(--space-xs) var(--space-md);
+  --input-padding: var(--space-xs) var(--space-sm);
+  
+  /* layout spacing */
+  --gap-xs: var(--space-xs);
+  --gap-sm: var(--space-sm);
+  --gap-md: var(--space-md);
+  --gap-lg: var(--space-lg);
+  --gap-xl: var(--space-xl);
+  
+  /* margin spacing */
+  --margin-xs: var(--space-xs);
+  --margin-sm: var(--space-sm);
+  --margin-md: var(--space-md);
+  --margin-lg: var(--space-lg);
+  --margin-xl: var(--space-xl);
+  --margin-2xl: var(--space-2xl);
+  --margin-3xl: var(--space-3xl);
+  
+  /* border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* breakpoints (for reference only - not used in media queries) */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 992px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1400px;
+
   /* gradient colors */
   --first-gradient: linear-gradient(
     0deg,
@@ -52,6 +101,64 @@
 
   /* shadow */
   --shadow: 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive spacing adjustments */
+/* Extra Small Devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+  :root {
+    /* Adjust spacing for mobile */
+    --section-padding: var(--space-xl) 0;
+    --container-padding: 0 var(--space-sm);
+    --card-padding: var(--space-sm);
+    --header-padding: var(--space-sm);
+    
+    /* Reduce gaps on mobile */
+    --gap-md: var(--space-sm);
+    --gap-lg: var(--space-md);
+    --gap-xl: var(--space-lg);
+    
+    /* Adjust margins on mobile */
+    --margin-lg: var(--space-md);
+    --margin-xl: var(--space-lg);
+    --margin-2xl: var(--space-xl);
+    --margin-3xl: var(--space-2xl);
+  }
+}
+
+/* Small Devices (tablets, between 481px and 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  :root {
+    /* Adjust spacing for small tablets */
+    --section-padding: var(--space-2xl) 0;
+    --container-padding: 0 var(--space-md);
+    --card-padding: var(--space-sm);
+  }
+}
+
+/* Medium Devices (tablets, between 769px and 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  :root {
+    /* Adjust spacing for large tablets */
+    --section-padding: var(--space-2xl) 0;
+    --container-padding: 0 var(--space-lg);
+  }
+}
+
+/* Large Devices (desktops, between 993px and 1200px) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  :root {
+    /* Default spacing is fine for desktops */
+  }
+}
+
+/* Extra Large Devices (large desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+  :root {
+    /* Increase spacing for large screens if needed */
+    --section-padding: var(--space-4xl) 0;
+    --container-padding: 0 var(--space-xl);
+  }
 }
 
 /* light theme */
@@ -123,4 +230,41 @@ button {
   height: 100%;
   border-radius: 50%;
   background: linear-gradient(#00b2ff, #00ffbb, #6bff6b);
+}
+
+/* Responsive container class */
+.container {
+  width: 100%;
+  padding: var(--container-padding);
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
