@@ -67,7 +67,7 @@ const Home = () => {
               <FaFacebookSquare />
             </a>
             <a
-              href='#'
+              href='https://github.com/abishikth-jos'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaGithub />
@@ -79,13 +79,13 @@ const Home = () => {
               <FaInstagram />
             </a>
             <a
-              href='#'
+              href='https://t.me/Ts_Bots'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaTelegram />
             </a>
             <a
-              href='#'
+              href='http://www.youtube.com/@trackstudio7431'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaYoutube />
