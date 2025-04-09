@@ -127,7 +127,7 @@ const Home = () => {
               initial={{ bottom: '50px' }}
               whileInView={{ bottom: '-1px' }}
               transition={transition}
-              className='absolute sm:bottom-0 sm:h-[620px] rounded-[700px] object-cover'
+              className='absolute sm:bottom-0 sm:h-[620px] rounded-full object-cover'
               src={profileImage}
               alt='HeroImg'
             />
