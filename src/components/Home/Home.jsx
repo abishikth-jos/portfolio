@@ -28,14 +28,14 @@ const Home = () => {
         {/* left side */}
         <div className='relative top-[15%] sm:top-[-8%] p-3 w-full text-white grid gird-rows-flow-6 gap-2 order-2 lg:order-1'>
           <p className='uppercase tracking-[0.05em] leading-[1.7] font-[700] text-titleColor dark:text-textColorDark flex items-center justify-center sm:justify-start'>
-            Hello,
+            New Era
             <span className='block text-large text-primaryColor'>
-              &nbsp;My Name Is
+              &nbsp;Begins with
             </span>
           </p>
 
           <h1 className='uppercase tracking-[0.05em] text-h2Size sm:text-[70px] font-[700] flex sm:items-start justify-center items-center drop-shadow-textShadow leading-[1.2] mt-[15px] flex-col gap-2 sm:gap-0'>
-            <span className='text-primaryColor'>Iman&nbsp;&nbsp;K.&nbsp;</span>
+            <span className='text-primaryColor'>TrackStudio&nbsp;</span>
             <span>Arvand</span>
           </h1>
 
