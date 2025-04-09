@@ -35,8 +35,8 @@ const Home = () => {
           </p>
 
           <h1 className='uppercase tracking-[0.05em] text-h2Size sm:text-[70px] font-[700] flex sm:items-start justify-center items-center drop-shadow-textShadow leading-[1.2] mt-[15px] flex-col gap-2 sm:gap-0'>
-            <span className='text-primaryColor'>TrackStudio&nbsp;</span>
-            <span>Arvand</span>
+            <span className='text-primaryColor'>Track&nbsp;</span>
+            <span>Studio</span>
           </h1>
 
           <p className='font-[700] leading-[1.7] flex items-center justify-center sm:justify-start'>
