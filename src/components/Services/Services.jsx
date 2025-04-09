@@ -23,10 +23,10 @@ const Services = () => {
       id='services'
     >
       <h2 className='uppercase tracking-[0.05em] text-[34px] sm:text-h1Size font-[700] text-center text-titleColor dark:text-titleColorDark '>
-        What i do
+        What we do
       </h2>
       <p className='leading-[1.7] text-primaryColor uppercase text-smaller font-[700] mb-[60px] text-center'>
-        My
+        Our
         <span className='font-[Caveat] text-titleColor dark:text-titleColorDark text-h3Size capitalize ml-[10px]'>
           Services
         </span>
