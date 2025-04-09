@@ -41,7 +41,7 @@ const Home = () => {
 
           <p className='font-[700] leading-[1.7] flex items-center justify-center sm:justify-start'>
             <span className='text-small tracking-[0.05em] uppercase text-titleColor dark:text-textColorDark'>
-              &nbsp &nbsp
+              #
             </span>
             <b className='font-[Caveat] text-h2Size ml-[10px] text-titleColor dark:text-titleColorDark'>
               Welcome to Future
