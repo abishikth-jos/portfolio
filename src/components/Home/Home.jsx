@@ -49,10 +49,9 @@ const Home = () => {
           </p>
 
           <p className='text-large max-w-[520px] my-[40px] leading-[1.7] text-textColor dark:text-textColorDark font-[Comfortaa] font-[700] flex items-center text-center sm:text-left'>
-            At Trackstudio, we’re dedicated to bringing you the best tools and resources to enhance your digital experience. One of the ways we do this is through our Telegram channel @Ts_Bots.
-
-            @Ts_Bots is your ultimate destination for discovering and utilizing the best Telegram bots available. Whether you’re looking to improve productivity, automate tasks, or simply have fun, our channel offers a curated collection of bots that will take your Telegram experience to the next level.
-          </p>
+              At Trackstudio, we bring you @Ts_Bots, 
+            
+              A Telegram channel dedicated to the best Telegram bots. Whether you're looking to boost productivity, automate tasks, or have fun, our channel offers curated bots to enhance your Telegram experience.          </p>
 
           <div className='flex gap-[20px] mb-[30px] justify-center sm:justify-start'>
             <a
