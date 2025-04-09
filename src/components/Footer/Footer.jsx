@@ -198,13 +198,13 @@ export default function Footer() {
           </div>
 
           <div className='flex justify-center uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-            &copy; 2023&nbsp; <span className='text-primaryColor'>ArvandCO</span>.
+            &copy; 2025&nbsp; <span className='text-primaryColor'>Trackstudio</span>.
             All Rights Reserved
           </div>
 
           <div className='uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark flex justify-center lg:justify-end'>
             Developed By&nbsp;{' '}
-            <span className='text-primaryColor'>Iman Arvand</span>
+            <span className='text-primaryColor'>Abishikth Jos</span>
           </div>
         </div>
       </div>
