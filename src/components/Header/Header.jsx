@@ -98,7 +98,7 @@ const Header = () => {
           onClick={scrollTop}
           className='nav__logo capitalize tracking-[0.05em] dark:text-titleColorDark text-titleColor'
         >
-          TrackStudio
+          Trackstudio
         </Link>
         <div
           className={`${
