@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillChrome } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
 import { skill } from '../../Data';
 
@@ -35,16 +35,20 @@ const Skills = () => {
               {skills.map(({ id, name, description, url, sourceUrl }) => (
                 <div
                   key={id}
-                  className='p-5 transition-shadow duration-300 border-2 skills_item border-titleColor rounded-2xl bg-bgColorAlt hover:shadow-lg hover:border-primaryColor dark:border-2 dark:border-titleColorDark dark:bg-bgColorAltDark dark:hover:border-primaryColor'
+                  className='p-5 transition-shadow duration-300 border-2 skills_item border-titleColor rounded-2xl bg-bgColorAlt hover:shadow-lg hover:border-primaryColor dark:border-2 dark:border-titleColorDark dark:bg-bgColorAltDark dark:hover:border-primaryColor flex flex-col'
                 >
-                  <h4 className='text-larger text-titleColor font-[700] dark:text-titleColorDark mb-3'>
-                    {name}
-                  </h4>
-                  <p className='text-titleColor dark:text-titleColorDark text-small'>
-                    {description}
-                  </p>
+                  {/* Content section with dynamic growth */}
+                  <div className='flex flex-grow flex-col'>
+                    <h4 className='text-larger text-titleColor font-[700] dark:text-titleColorDark mb-3'>
+                      {name}
+                    </h4>
+                    <p className='text-titleColor dark:text-titleColorDark text-small'>
+                      {description}
+                    </p>
+                  </div>
 
-                  <div className='flex flex-col gap-4 w-3/5'>
+                  {/* Button container pinned to the bottom */}
+                  <div className='flex flex-col gap-4 mt-auto'>
                     <a
                       href={url}
                       target='_blank'
@@ -57,6 +61,19 @@ const Skills = () => {
                       </span>
                       <CgWebsite className='z-[2] w-6 h-6 text-titleColor dark:text-titleColorDark' />
                     </a>
+
+                    <a
+                      href={sourceUrl}
+                      target='_blank'
+                      rel='noopener'
+                      className='btn__start flex items-center justify-around w-full text-titleColor dark:text-titleColorDark text-normal gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[12px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
+                    >
+                      <span className='z-[1] text-titleColor dark:text-titleColorDark font-[Jost] font-[700]'>
+                        Other&nbsp;
+                        <span className='text-primaryColor'>Pages</span>
+                      </span>
+                      <AiFillGithub className='z-[2] w-[20px] h-[20px] text-titleColor dark:text-titleColorDark' />
+                    </a>
                   </div>
                 </div>
               ))}
@@ -67,7 +84,7 @@ const Skills = () => {
 
       <div className='flex flex-wrap justify-center gap-3 mx-4 ms:mx-0'>
         {skill.map(({ id, name }) => (
-          <span 
+          <span
             key={id}
             className='px-4 py-2 font-medium transition-colors duration-300 border-2 rounded-full bg-bgColorAlt dark:bg-bgColorAltDark border-titleColor dark:border-titleColorDark text-titleColor dark:text-titleColorDark hover:bg-primaryColor hover:text-white hover:border-primaryColor'
           >
