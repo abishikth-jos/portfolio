@@ -6,7 +6,7 @@ import { skill } from '../../Data';
 const Skills = () => {
   // Group skills by proficiency level
   const skillsByLevel = {
-    Group: skill.filter(s => s.percentage >= 90),
+    Groups: skill.filter(s => s.percentage >= 90),
     Channels: skill.filter(s => s.percentage >= 80 && s.percentage < 90),
     Bots: skill.filter(s => s.percentage >= 70 && s.percentage < 80),
     Familiar: skill.filter(s => s.percentage < 70)
