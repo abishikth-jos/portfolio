@@ -181,10 +181,10 @@ export const skill = [
 
   {
     id: 11,
-    name: "Sass",
+    name: "AnyLink Hindi",
     percentage: 75,
     description:
-      "Sass is a CSS preprocessor that allows developers to write CSS in a more concise and structured way.",
+      "An exclusive channel for hindi movies",
   },
 
   {
@@ -230,7 +230,7 @@ export const skill = [
   {
     id: 17,
     name: "React Query",
-    percentage: 80,
+    percentage: 70,
     description:
       "React Query is a powerful data-fetching and state management library for React applications that simplifies server state handling.",
   },
@@ -286,7 +286,7 @@ export const skill = [
   {
     id: 24,
     name: "ANTDESIGN",
-    percentage: 85,
+    percentage: 70,
     description:
       "Ant Design is an enterprise-class UI design language and React UI library with a set of high-quality components and demos.",
   },
