@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub } from 'react-icons/ai';
+import { AiFillChrome } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
 import shapeTwo from '../../assets/shape-2.png';
 import { motion } from 'framer-motion';
@@ -62,7 +62,7 @@ const Items = ({ projectItems }) => {
                   See&nbsp;
                   <span className='text-primaryColor'>Github</span>
                 </span>
-                <AiFillGithub className='z-[2] w-[26px] h-[26px] text-titleColor dark:text-titleColorDark' />
+                <AiFillChrome className='z-[2] w-[26px] h-[26px] text-titleColor dark:text-titleColorDark' />
               </a>              
             </div>
             <img
