@@ -91,35 +91,38 @@ export const service = [
 export const skill = [
   {
     id: 1,
-    name: "HTML",
+    name: "AnyLink Group",
     percentage: 99,
     description:
-      "Hypertext Markup Language (HTML) is the standard markup language used to create web pages and web applications.",
-    url: "https://trackstudio.vercel.app/",
+      "A support group for AnyLink members to raise their suggestion and queries",
+    url: "https://t.me/AnyLink_Group",
   },
 
   {
     id: 2,
-    name: "JavaScript",
+    name: "AnyLink Club",
     percentage: 90,
     description:
-      "JavaScript is a scripting language used for creating dynamic web pages and web applications.",
+      "A movie club for Anylink members to request movies via Telegram bots",
+    url: "https://t.me/AnyLink_Club",
   },
 
   {
     id: 3,
-    name: "React.js",
+    name: "AnyLink Infinity Movies",
     percentage: 90,
     description:
-      "A popular JavaScript library for building user interfaces, React is used to create dynamic and responsive web applications.",
+      "An automated movie group where anyone can request and share movies in a collabrative way.",
+    url: "https://t.me/AnyLink_Infinity_Movies",
   },
 
   {
     id: 4,
-    name: "Next.js",
-    percentage: 85,
+    name: "Trackstudio's Bots Support",
+    percentage: 90,
     description:
-      "Next.js is a React-based framework for building server-side rendered and statically generated web applications.",
+      "A support group for Trackstudio's Bots where Ts-members can raise queries, suggestions and feedbacks",
+    url: "https://t.me/Ts_Bots_Support",
   },
 
   {
