@@ -229,7 +229,7 @@ export const skill = [
     name: "Infinity MoviesLink",
     percentage: 80,
     description:
-      "A collabrative channel from the team of Infinity MoviesLink",
+      "A collabrative channel from the team of Infinity MoviesLink. This channel is fully automated with Ts-Bots",
     url: "https://t.me/Infinity_MoviesLink",
   },
 
