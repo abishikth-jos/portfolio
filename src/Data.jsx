@@ -127,50 +127,56 @@ export const skill = [
 
   {
     id: 5,
-    name: "TypeScript",
-    percentage: 75,
+    name: "AnyLink Movie",
+    percentage: 80,
     description:
-      "TypeScript is a superset of JavaScript that adds optional static typing and other features to the language.",
+      "Official movie channel for Anylink members to connect with our anylink network",
+    url: "https://t.me/AnyLink_Movie",
   },
 
   {
     id: 6,
-    name: "Tailwind CSS",
+    name: "AnyLink Series",
     percentage: 80,
     description:
-      "Tailwind CSS is a utility-first CSS framework that provides developers with a set of pre-built CSS classes for styling web applications.",
+      "An exclusive channel TV and Web series",
+    url: "https://t.me/AnyLink_Series",
   },
 
   {
     id: 7,
-    name: "Git",
+    name: "AnyLink Malayalam",
     percentage: 80,
     description:
-      "Git is a widely used version control system that is essential for collaborative development and project management. ",
+      "An exclusive channel for new and old malayalam movies",
+    url: "https://t.me/AnyLink_Malayalam",
   },
 
   {
     id: 8,
-    name: "Webpack",
-    percentage: 50,
+    name: "AnyLink South",
+    percentage: 80,
     description:
-      "Webpack is a module bundler for modern JavaScript applications. It bundles assets, modules, and dependencies into a single file.",
+      "A dedicated channel for non malayalam south movies",
+    url: "https://t.me/AnyLink_South",
   },
 
   {
     id: 9,
-    name: "GraphQL",
+    name: "AnyLink English",
     percentage: 80,
     description:
-      "GraphQL is a query language for APIs that provides a more efficient, powerful and flexible alternative to RESTful APIs.",
+      "Dedicated channel for english movies",
+    url: "https://t.me/AnyLink_English",
   },
 
   {
     id: 10,
-    name: "RESTful API",
-    percentage: 85,
+    name: "AnyLink World",
+    percentage: 80,
     description:
-      "RESTful API is an interface that two computer systems use to exchange information securely over the internet.",
+      "Dedicated channel for non-english foreign movies",
+    url: "https://t.me/AnyLink_World",
   },
 
   {
