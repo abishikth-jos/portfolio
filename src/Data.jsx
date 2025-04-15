@@ -298,20 +298,20 @@ export const project = [
     category: "Websites",
     title: "Trackstudio Web",
     description:
-      "Trackstudio Web brings it all together — explore AnyLink Movie and Trackstudio’s Bots Telegram channels, get movie info on AnyLink Web, and check out tools like Renamebull, AutoCaption, and AutoForward. All in one place.",
-    url: "http://imankhaki.netlify.app/",
-    sourceUrl: "https://github.com/khakiiman/portfolio",
+      "Trackstudio Web is the official platform to explore all our Telegram channels, bots, and websites — everything in one place!",
+    url: "https://trackstudio.vercel.app/",
+    sourceUrl: "https://github.com/abishikth-jos",
   },
 
   {
     id: 3,
     img: appleStore,
-    category: "Ecommerce",
-    title: "New Apple Store",
+    category: "Websites",
+    title: "AnyLink Movie Web",
     description:
-      "The new Apple Store landing page is a web page designed for showcasing and promoting Apple products, services, and features.",
-    url: "https://newapplestore.netlify.app/",
-    sourceUrl: "https://github.com/khakiiman/applestore",
+      "Stay up-to-date with AnyLink Web – the latest releases, trailers, cast info, and everything you need to know about movies, all in one place!",
+    url: "https://anylinkmovie-web.vercel.app/",
+    sourceUrl: "https://t.me/Anylink_Movie",
   },
 
   {
