@@ -168,7 +168,7 @@ export const skill = [
   {
     id: 10,
     name: "RESTful API",
-    percentage: 90,
+    percentage: 85,
     description:
       "RESTful API is an interface that two computer systems use to exchange information securely over the internet.",
   },
