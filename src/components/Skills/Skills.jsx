@@ -44,7 +44,7 @@ const Skills = () => {
                     {description}
                   </p>
 
-                  <div className='flex flex-row items-center justify-between gap-4 mt-4'>
+                  <div className='flex flex-row items-center justify-between gap-4 mt-auto'>
                     <a
                       href={url}
                       target='_blank'
