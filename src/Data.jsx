@@ -287,7 +287,7 @@ export const project = [
     category: "Telgram",
     title: "AnyLink Movie",
     description:
-      "Your ultimate gateway to a world of cinema! From the latest blockbusters to hidden foreign gems, We drops high-quality movies in multiple languages, ready to stream or download in crisp formats like 1080p and HEVC. Whether you're into thrillers, rom-coms, or sci-fi, AnyLink has something for every movie lover",
+      "Get any movie link from top distributors on our Telegram channel! We provide the best, hand-checked files for a seamless, high-quality experience every time!",
     url: "https://t.me/Anylink_Movie",
     sourceUrl: "https://t.me/Anylink_Movie",
   },
