@@ -318,7 +318,7 @@ export const project = [
     id: 4,
     img: golsam,
     category: "Bots",
-    title: "RenameBull ",
+    title: "RenameBull | Ts Bots",
     description:
       "A fast, user-friendly Telegram bot to rename media files with powerful features and a sleek UI",
     url: "https://t.me/renamebull_ts_bot",
