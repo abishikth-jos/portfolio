@@ -32,12 +32,12 @@ const Projects = () => {
       id='projects'
     >
       <h2 className='uppercase tracking-[0.05em] text-[34px] sm:text-h1Size font-[700] text-titleColor dark:text-titleColorDark text-center'>
-        Projects
+        Explore
       </h2>
       <p className='leading-[1.7] text-primaryColor uppercase text-smaller font-[700] mb-[60px] text-center'>
-        My
+        Our
         <span className='font-[Caveat] text-titleColor dark:text-titleColorDark text-h3Size capitalize ml-[10px]'>
-          Cases
+          World
         </span>
       </p>
 
