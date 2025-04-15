@@ -95,6 +95,7 @@ export const skill = [
     percentage: 99,
     description:
       "Hypertext Markup Language (HTML) is the standard markup language used to create web pages and web applications.",
+    url: "https://trackstudio.vercel.app/",
   },
 
   {
