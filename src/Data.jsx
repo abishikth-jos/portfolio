@@ -284,12 +284,12 @@ export const project = [
   {
     id: 1,
     img: digiCosmetics,
-    category: "Landing",
-    title: "digiCosmetics",
+    category: "Telgram",
+    title: "AnyLink Movie",
     description:
-      "Landing page designed for selling cosmetic products. It typically includes a visually appealing design, easy navigation, and clear product descriptions.",
-    url: "https://digicosmetics.netlify.app",
-    sourceUrl: "https://github.com/khakiiman/digiCosmetics",
+      "Your ultimate gateway to a world of cinema! From the latest blockbusters to hidden foreign gems, We drops high-quality movies in multiple languages, ready to stream or download in crisp formats like 1080p and HEVC. Whether you're into thrillers, rom-coms, or sci-fi, AnyLink has something for every movie lover",
+    url: "https://t.me/Anylink_Movie",
+    sourceUrl: "https://t.me/Anylink_Movie",
   },
 
   {
