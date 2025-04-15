@@ -62,7 +62,7 @@ const Items = ({ projectItems }) => {
                   Other&nbsp;
                   <span className='text-primaryColor'>Pages</span>
                 </span>
-                <AiFillChrome className='z-[2] w-[26px] h-[26px] text-titleColor dark:text-titleColorDark' />
+                <AiFillChrome className='z-[2] w-[35px] h-[35px] text-titleColor dark:text-titleColorDark' />
               </a>              
             </div>
             <img
