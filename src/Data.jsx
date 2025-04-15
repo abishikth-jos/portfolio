@@ -200,7 +200,7 @@ export const skill = [
   {
     id: 13,
     name: "AnyLink 4K Movies",
-    percentage: 40,
+    percentage: 80,
     description:
       "Dedicated channel for UHD Movies",
     url: "https://t.me/AnyLink_4K_Movies",
@@ -209,7 +209,7 @@ export const skill = [
   {
     id: 14,
     name: "AnyLink 4K Series",
-    percentage: 40,
+    percentage: 80,
     description:
       "Dedicated channel for UHD 4K Series",
     url: "https://t.me/AnyLink_4K_Series",
@@ -217,18 +217,20 @@ export const skill = [
 
   {
     id: 15,
-    name: "Jest & Cypress",
-    percentage: 45,
+    name: "Trackstudio's Bots",
+    percentage: 85,
     description:
-      "Jest and Cypress are JavaScript-based testing framework designed to ensure correctness of any JavaScript codebase.",
+      "An official channel for bots updates and new development of projects.",
+    url: "https://t.me/Ts_Bots",
   },
 
   {
     id: 16,
-    name: "Playwright",
+    name: "Infinity MoviesLink",
     percentage: 75,
     description:
-      "Playwright is a modern end-to-end testing framework that enables reliable cross-browser automation for web applications.",
+      "A collabrative channel from the team of Infinity MoviesLink",
+    url: "https://t.me/Infinity_MoviesLink",
   },
 
   {
