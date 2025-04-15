@@ -185,30 +185,34 @@ export const skill = [
     percentage: 85,
     description:
       "An exclusive channel for hindi movies",
+    url: "https://t.me/AnyLink_Hindi",
   },
 
   {
     id: 12,
-    name: "Bootstrap",
-    percentage: 85,
+    name: "AnyLink Collections",
+    percentage: 80,
     description:
-      "Bootstrap is a popular CSS framework that provides developers with a set of pre-built UI components.",
+      "Dedicated channel for selected collection of movies",
+    url: "https://t.me/AnyLink_Collections",
   },
 
   {
     id: 13,
-    name: "Redux",
+    name: "AnyLink 4K Movies",
     percentage: 40,
     description:
-      "Redux is a predictable state container for JavaScript apps, used to manage the state of complex applications.",
+      "Dedicated channel for UHD Movies",
+    url: "https://t.me/AnyLink_4K_Movies",
   },
 
   {
     id: 14,
-    name: "Zustand",
-    percentage: 75,
+    name: "AnyLink 4K Series",
+    percentage: 40,
     description:
-      "Zustand is a small, fast and scalable status management solution. Its state management is centralized and action-based.",
+      "Dedicated channel for UHD 4K Series",
+    url: "https://t.me/AnyLink_4K_Series",
   },
 
   {
