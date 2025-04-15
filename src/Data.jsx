@@ -284,12 +284,12 @@ export const project = [
   {
     id: 1,
     img: digiCosmetics,
-    category: "Telgram",
+    category: "Telegram",
     title: "AnyLink Movie",
     description:
       "Get any movie link from top distributors on our Telegram channel! We provide the best, hand-checked files for a seamless, high-quality experience every time!",
     url: "https://t.me/Anylink_Movie",
-    sourceUrl: "https://t.me/Anylink_Movie",
+    sourceUrl: "https://anylinkmovie-web.vercel.app/",
   },
 
   {
