@@ -227,7 +227,7 @@ export const skill = [
   {
     id: 16,
     name: "Infinity MoviesLink",
-    percentage: 75,
+    percentage: 80,
     description:
       "A collabrative channel from the team of Infinity MoviesLink",
     url: "https://t.me/Infinity_MoviesLink",
