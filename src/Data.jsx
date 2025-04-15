@@ -128,7 +128,7 @@ export const skill = [
   {
     id: 5,
     name: "AnyLink Movie",
-    percentage: 80,
+    percentage: 85,
     description:
       "Official movie channel for Anylink members to connect with our anylink network",
     url: "https://t.me/AnyLink_Movie",
@@ -137,7 +137,7 @@ export const skill = [
   {
     id: 6,
     name: "AnyLink Series",
-    percentage: 80,
+    percentage: 85,
     description:
       "An exclusive channel TV and Web series",
     url: "https://t.me/AnyLink_Series",
@@ -146,7 +146,7 @@ export const skill = [
   {
     id: 7,
     name: "AnyLink Malayalam",
-    percentage: 80,
+    percentage: 85,
     description:
       "An exclusive channel for new and old malayalam movies",
     url: "https://t.me/AnyLink_Malayalam",
@@ -155,7 +155,7 @@ export const skill = [
   {
     id: 8,
     name: "AnyLink South",
-    percentage: 80,
+    percentage: 85,
     description:
       "A dedicated channel for non malayalam south movies",
     url: "https://t.me/AnyLink_South",
@@ -164,7 +164,7 @@ export const skill = [
   {
     id: 9,
     name: "AnyLink English",
-    percentage: 80,
+    percentage: 85,
     description:
       "Dedicated channel for english movies",
     url: "https://t.me/AnyLink_English",
@@ -173,7 +173,7 @@ export const skill = [
   {
     id: 10,
     name: "AnyLink World",
-    percentage: 80,
+    percentage: 85,
     description:
       "Dedicated channel for non-english foreign movies",
     url: "https://t.me/AnyLink_World",
@@ -182,7 +182,7 @@ export const skill = [
   {
     id: 11,
     name: "AnyLink Hindi",
-    percentage: 75,
+    percentage: 85,
     description:
       "An exclusive channel for hindi movies",
   },
