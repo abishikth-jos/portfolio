@@ -198,7 +198,7 @@ export const skill = [
   {
     id: 13,
     name: "Redux",
-    percentage: 80,
+    percentage: 40,
     description:
       "Redux is a predictable state container for JavaScript apps, used to manage the state of complex applications.",
   },
