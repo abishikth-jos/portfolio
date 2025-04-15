@@ -46,8 +46,8 @@ const Items = ({ projectItems }) => {
                 className='btn__start flex items-center justify-around w-full text-titleColor dark:text-titleColorDark text-normal gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[12px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
               >
                 <span className='z-[1] text-titleColor dark:text-titleColorDark font-[Jost] font-[700]'>
-                  Click to&nbsp;
-                  <span className='text-primaryColor'>Go</span>
+                  Click&nbsp;
+                  <span className='text-primaryColor'>Here</span>
                 </span>
                 <CgWebsite className='z-[2] w-6 h-6 text-titleColor dark:text-titleColorDark' />
               </a>
