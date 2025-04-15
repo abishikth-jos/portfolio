@@ -247,7 +247,7 @@ export const skill = [
     name: "Stem | Ts Bots",
     percentage: 75,
     description:
-      "A Telegram bot which is act as a bridge between developer and members for answering any queries and support related to trackstudio's network",
+      "A Telegram bot which act as a bridge between developer and members for answering any queries and support related to trackstudio's network",
     url: "https://t.me/stemlime_bot",
     
   },
