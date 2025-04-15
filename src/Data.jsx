@@ -334,7 +334,7 @@ export const project = [
     title: "AutoForward | Ts Bots",
     description:
       "A powerful Telegram bot that forwards multiple media files to different channels with ease. Packed with versatile features to simplify your workflow.",
-    url: "https://t.me/AutoCaption_Ts_Bot",
+    url: "https://t.me/AutoForward_Ts_Bot",
     sourceUrl: "https://t.me/ts_bots",
   },
 
