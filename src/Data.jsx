@@ -295,10 +295,10 @@ export const project = [
   {
     id: 2,
     img: portfolio,
-    category: "Portfolio",
-    title: "Developer Portfolio",
+    category: "Websites",
+    title: "Trackstudio Web",
     description:
-      "This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.",
+      "Trackstudio Web brings it all together — explore AnyLink Movie and Trackstudio’s Bots Telegram channels, get movie info on AnyLink Web, and check out tools like Renamebull, AutoCaption, and AutoForward. All in one place.",
     url: "http://imankhaki.netlify.app/",
     sourceUrl: "https://github.com/khakiiman/portfolio",
   },
