@@ -235,66 +235,75 @@ export const skill = [
 
   {
     id: 17,
-    name: "React Query",
+    name: "Rename Bull | Ts Bots",
     percentage: 70,
     description:
-      "React Query is a powerful data-fetching and state management library for React applications that simplifies server state handling.",
+      "A telegram bot to rename, take screenshots, sample videos etc. with versatile features",
+    url: "https://t.me/renamebull_ts_bot",
   },
 
   {
     id: 18,
-    name: "React Hook Form",
+    name: "Stem | Ts Bots",
     percentage: 75,
     description:
-      "React Hook Form is a performant, flexible and extensible forms library with easy-to-use validation for React applications.",
+      "A Telegram bot which is act as a bridge between developer and members for answering any queries and support related to trackstudio's network",
+    url: "https://t.me/stemlime_bot",
+    
   },
 
   {
     id: 19,
-    name: "Docker",
+    name: "AutoCaption | Ts Bots",
     percentage: 40,
     description:
-      "Docker is a platform for developing, shipping, and running applications in containers, making it easier to create and deploy applications consistently.",
+      "A fully automated telegram bot to edit or remove media captions in channels with versatile features.",
+    url: "https://t.me/autocaption_ts_bot",
   },
 
   {
     id: 20,
-    name: "ThreeJS",
+    name: "AutoForward | Ts Bots",
     percentage: 75,
     description:
-      "Three.js is a cross-browser JavaScript library used to create and display animated 3D computer graphics in web browsers using WebGL.",
+      "A fully automated telegram bot to forward media to multiple channels with versatile features",
+    url: "https://t.me/autoforward_ts_bot",
   },
 
   {
     id: 21,
-    name: "NodeJS",
+    name: "Renamer | Ts Bots",
     percentage: 55,
     description:
-      "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to run JavaScript on the server side.",
+      "A telegram rename bot which is always in developer stage",
+    url: "https://t.me/renamer_ts_bot",
   },
 
   {
     id: 22,
-    name: "MaterialUI",
+    name: "Linker | Ts Bots",
     percentage: 75,
     description:
-      "Material-UI is a popular React UI framework that implements Google's Material Design principles with a comprehensive suite of components.",
+      "A telegram bot which is capable of delivering many movies to connected groups",
+    url: "https://t.me/linker_ts_bot",
   },
 
   {
     id: 23,
-    name: "RadixUI",
+    name: "SongDL | Ts Bots",
     percentage: 75,
     description:
-      "Radix UI is a low-level UI component library with a focus on accessibility, customization and developer experience.",
+      "A telegram bot for music lovers collabrated with jiosaavan and youtube.",
+    url: "https://t.me/songdl_ts_bot",
   },
 
   {
     id: 24,
-    name: "ANTDESIGN",
+    name: "File2Link | Ts Bots",
     percentage: 70,
     description:
-      "Ant Design is an enterprise-class UI design language and React UI library with a set of high-quality components and demos.",
+      "A telegram bot to convert medias to a streamable link.",
+    url: "https://t.me/file2link_ts_bot",
   },
 ];
 
