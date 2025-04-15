@@ -9,7 +9,7 @@ const Skills = () => {
     Groups: skill.filter(s => s.percentage >= 90),
     Channels: skill.filter(s => s.percentage >= 80 && s.percentage < 90),
     Bots: skill.filter(s => s.percentage >= 70 && s.percentage < 80),
-    UHD: skill.filter(s => s.percentage < 70)
+    Others: skill.filter(s => s.percentage < 70)
   };
 
   return (
