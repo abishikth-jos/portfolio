@@ -2,6 +2,8 @@ import digiCosmetics from "./assets/digiCosmetics.png";
 import portfolio from "./assets/portfolio.png";
 import appleStore from "./assets/appleStore.png";
 import golsam from "./assets/golsam.png";
+import AutoForwardImg from "./assets/AutoForwardImg.png";
+import AutoCaptionImg from "./assets/AutoCaptionImg.png";
 
 import Testimonial1 from "./assets/testimonial1.jpg";
 import Testimonial2 from "./assets/testimonial2.jpg";
@@ -327,14 +329,25 @@ export const project = [
   
   {
     id: 5,
-    img: golsam,
-    category: "Blog",
-    title: "Golsam Sepahan",
+    img: AutoForwardImg,
+    category: "Bots",
+    title: "AutoForward | Ts Bots",
     description:
-      "A new design blog provides informative content related to the agricultural industry, including tips and advice on the use of fertilizers and pesticides. ",
-    url: "https://golsamsepahan.netlify.app",
-    sourceUrl: "https://github.com/khakiiman/golsam-sepahan",
+      "A powerful Telegram bot that forwards multiple media files to different channels with ease. Packed with versatile features to simplify your workflow.",
+    url: "https://t.me/AutoCaption_Ts_Bot",
+    sourceUrl: "https://t.me/ts_bots",
   },
+
+  {
+    id: 6,
+    img: AutoCaptionImg,
+    category: "Bots",
+    title: "AutoCaption | Ts Bots",
+    description:
+      "A powerful Telegram bot that add or edit captions of multiple media files for different channels with ease. Packed with versatile features to simplify your workflow.",
+    url: "https://t.me/AutoCaption_Ts_Bot",
+    sourceUrl: "https://t.me/ts_bots",
+  },  
   
 ];
 
