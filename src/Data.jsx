@@ -255,7 +255,7 @@ export const skill = [
   {
     id: 19,
     name: "AutoCaption | Ts Bots",
-    percentage: 40,
+    percentage: 75,
     description:
       "A fully automated telegram bot to edit or remove media captions in channels with versatile features.",
     url: "https://t.me/autocaption_ts_bot",
@@ -273,7 +273,7 @@ export const skill = [
   {
     id: 21,
     name: "Renamer | Ts Bots",
-    percentage: 55,
+    percentage: 75,
     description:
       "A telegram rename bot which is always in developer stage",
     url: "https://t.me/renamer_ts_bot",
