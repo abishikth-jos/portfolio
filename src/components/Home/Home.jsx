@@ -119,7 +119,7 @@ const Home = () => {
               duration={500}
               className='cursor-pointer text-titleColor dark:text-titleColorDark text-tiny grid place-items-center p-[20px] relative before:content-[""] before:absolute before:top-[50%] before:left-[-62%] before:translate-y-[-50%] before:w-[40px] before:h-[2px] before:bg-borderColor dark:before:bg-borderColorDark hover:text-primaryColor dark:hover:text-primaryColor '
             >
-              My Skills
+              Tele Zone
             </Link>
           </div>
         </div>
