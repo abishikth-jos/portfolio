@@ -505,7 +505,7 @@ export const post = [
   {
     id: 2,
     date: "November 19, 2022",
-    imgURL: "https://envs.sh/zVH.jpg",
+    imgURL: "https://trackstudio.vercel.app/assets/AutoCaptionImg-74a0c8b1.png",
     title: "Getting Started with Vue.js",
     description:
       "Explore the basics of Vue.js, a progressive JavaScript framework for building user interfaces.",
