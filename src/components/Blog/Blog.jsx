@@ -49,7 +49,7 @@ const Blog = () => {
         modules={[Pagination]}
         className='mySwiper text-center '
       >
-        {post.map(({ id, date, imgURL, title, description }) => {
+        {post.map(({ id, date, imgURL, title, description, url}) => {
           return (
             <SwiperSlide
               className='bg-containerColor border-bgColorDark border-2 border-solid dark:bg-containerColorDark pt-[30px] px-[35px] rounded-[18px] overflow-hidden text-left flex flex-col'
@@ -66,7 +66,7 @@ const Blog = () => {
 
               <div className='flex justify-start items-center absolute bottom-[5%] left-10 '>
                 <a
-//                  href={url}
+                  href={url}
 //                  target='_blank'
 //                  rel='noopener'
                   className='btn__start flex items-center justify-around w-full text-titleColor dark:text-titleColorDark text-tiny gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[8px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
