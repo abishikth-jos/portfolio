@@ -48,7 +48,7 @@ const Contact = () => {
       id='contact'
     >
       <h2 className='uppercase tracking-[0.05em] text-[34px] sm:text-h1Size font-[700] text-titleColor dark:text-titleColorDark text-center'>
-        Contact Me
+        Contact Us
       </h2>
       <p className='leading-[1.7] text-primaryColor uppercase text-smaller font-[700] mb-[60px] text-center'>
         Let's
@@ -67,7 +67,7 @@ const Contact = () => {
               Address
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              Iran, Isfahan, Farhang st No.26
+              Trackstudio Enterprise, Kerala, India
             </p>
           </div>
           <div className='contact__card'>
@@ -75,10 +75,10 @@ const Contact = () => {
               <FaRegUser className='text-titleColor dark:text-titleColorDark' />
             </span>
             <h3 className='contact__card-title font-[700] text-titleColor dark:text-titleColorDark'>
-              Freelance
+              Trackstudio
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              Available Right Now
+              We are live
             </p>
           </div>
           <div className='contact__card'>
@@ -89,7 +89,7 @@ const Contact = () => {
               Email
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              ikhaki71@gmail.com
+              trackstudio003@gmail.com
             </p>
           </div>
           <div className='contact__card'>
@@ -97,10 +97,10 @@ const Contact = () => {
               <FaRegAddressBook className='text-titleColor dark:text-titleColorDark' />
             </span>
             <h3 className='contact__card-title font-[700] text-titleColor dark:text-titleColorDark'>
-              Phone
+              Telegram
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              +98 913 603 9501
+              @Ts_Bots_Support
             </p>
           </div>
         </div>
