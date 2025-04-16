@@ -497,7 +497,7 @@ export const post = [
     id: 1,
     date: "October 31, 2022",
     imgURL:
-      "https://envs.sh/zVN.jpg",
+      "https://trackstudio.vercel.app/assets/AutoForwardImg-f00b6e79.png",
     title: "Introduction to React Hooks",
     description:
       "Learn how to use React Hooks to simplify state management and improve performance in your frontend applications.",
