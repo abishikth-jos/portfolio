@@ -17,29 +17,39 @@ const Contact = () => {
     message: '',
   });
 
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState('');
+
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    axios
-      .post(
+
+    // Simple validation
+    if (!form.name || !form.email || !form.subject || !form.message) {
+      setStatus('Please fill in all the fields.');
+      return;
+    }
+
+    try {
+      setLoading(true);
+      setStatus('');
+      await axios.post(
         'https://sheet.best/api/sheets/1fc49a2f-4c2a-48a0-80dc-e3f6173d0e43',
         form
-      )
-      .then((response) => {
-        console.log(response);
-        // clear forms value
-        setForm({
-          name: '',
-          email: '',
-          subject: '',
-          message: '',
-        });
-      });
+      );
+      setForm({ name: '', email: '', subject: '', message: '' });
+      setStatus('✅ Message sent successfully!');
+    } catch (error) {
+      console.error(error);
+      setStatus('❌ Failed to send message. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -109,7 +119,7 @@ const Contact = () => {
           <div className='contact__form-group grid-cols-1 sm:grid-cols-2 grid'>
             <div className='contact__form-div'>
               <label className='contact__form-tag uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-                Your Full Name <b className=''>*</b>
+                Your Full Name <b>*</b>
               </label>
               <input
                 type='text'
@@ -123,7 +133,7 @@ const Contact = () => {
 
             <div className='contact__form-div'>
               <label className='contact__form-tag uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-                Your Email Address <b className=''>*</b>
+                Your Email Address <b>*</b>
               </label>
               <input
                 type='email'
@@ -137,7 +147,7 @@ const Contact = () => {
 
           <div className='contact__form-div'>
             <label className='contact__form-tag uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-              Your Subject <b className=''>*</b>
+              Your Subject <b>*</b>
             </label>
             <input
               name='subject'
@@ -150,7 +160,7 @@ const Contact = () => {
 
           <div className='contact__form-div contact__form-area'>
             <label className='contact__form-tag uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-              Your Message <b className=''>*</b>
+              Your Message <b>*</b>
             </label>
             <textarea
               name='message'
@@ -160,16 +170,23 @@ const Contact = () => {
             ></textarea>
           </div>
 
-          <div className='contact__submit grid grid-cols-1 sm:flex gap-4 items-center justify-center sm:justify-around text-titleColor dark:text-titleColorDark'>
+          {status && (
+            <p className='text-center font-semibold mt-4 text-red-600 dark:text-red-400'>
+              {status}
+            </p>
+          )}
+
+          <div className='contact__submit grid grid-cols-1 sm:flex gap-4 items-center justify-center sm:justify-around text-titleColor dark:text-titleColorDark mt-4'>
             <p className='font-[Comfortaa]'>
               *Accept the terms and conditions.
             </p>
             <button
               type='submit'
-              className='flex items-center justify-around w-full sm:w-1/3 text-titleColor dark:text-titleColorDark text-large gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[16px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
+              disabled={loading}
+              className='flex items-center justify-around w-full sm:w-1/3 text-titleColor dark:text-titleColorDark text-large gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[16px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100 disabled:opacity-50 disabled:cursor-not-allowed'
             >
               <span className='z-[1] text-titleColor dark:text-titleColorDark font-[Jost] font-[700]'>
-                Send Message
+                {loading ? 'Sending...' : 'Send Message'}
               </span>
             </button>
           </div>
