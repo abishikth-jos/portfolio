@@ -497,7 +497,7 @@ export const post = [
     id: 1,
     date: "October 31, 2022",
     imgURL:
-      "https://www.freecodecamp.org/news/content/images/size/w2000/2022/03/freeCodeCamp-Cover.png",
+      "https://envs.sh/zVN.jpg",
     title: "Introduction to React Hooks",
     description:
       "Learn how to use React Hooks to simplify state management and improve performance in your frontend applications.",
@@ -505,7 +505,7 @@ export const post = [
   {
     id: 2,
     date: "November 19, 2022",
-    imgURL: "https://softagency.in/wp-content/uploads/2023/02/vuejsfeat.jpg",
+    imgURL: "https://envs.sh/zVH.jpg",
     title: "Getting Started with Vue.js",
     description:
       "Explore the basics of Vue.js, a progressive JavaScript framework for building user interfaces.",
