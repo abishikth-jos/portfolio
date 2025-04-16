@@ -22,9 +22,9 @@ const Blog = () => {
         Latest Blog
       </h2>
       <p className='leading-[1.7] text-primaryColor uppercase text-smaller font-[700] mb-[60px] text-center'>
-        My
+        YouTube
         <span className='font-[Caveat] text-titleColor dark:text-titleColorDark text-h3Size capitalize ml-[10px]'>
-          Articles and Advices
+          Zone
         </span>
       </p>
 
