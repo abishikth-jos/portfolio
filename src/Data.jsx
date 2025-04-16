@@ -498,23 +498,25 @@ export const post = [
     date: "October 31, 2022",
     imgURL:
       "https://trackstudio.vercel.app/assets/AutoForwardImg-f00b6e79.png",
-    title: "Introduction to React Hooks",
+    title: "AutoForward Ts Bot | Tutorial Part 1",
     description:
-      "Learn how to use React Hooks to simplify state management and improve performance in your frontend applications.",
+      "A tutorial video on how to use AutoForward Ts Bot Part 1",
+    url: "https://www.youtube.com/watch?v=6ts9qN9JgLk",
   },
   {
     id: 2,
     date: "November 19, 2022",
-    imgURL: "https://trackstudio.vercel.app/assets/AutoCaptionImg-74a0c8b1.png",
-    title: "Getting Started with Vue.js",
+    imgURL: "https://trackstudio.vercel.app/assets/AutoForwardImg-f00b6e79.png",
+    title: "AutoForward Ts Bot | Tutorial Part 2",
     description:
       "Explore the basics of Vue.js, a progressive JavaScript framework for building user interfaces.",
+    url: "https://www.youtube.com/watch?v=6ts9qN9JgLk",
   },
   {
     id: 3,
     date: "April 12, 2022",
     imgURL:
-      "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qF8LfAwUhl57g9T0BVvVdg.jpeg",
+      "https://trackstudio.vercel.app/assets/AutoCaptionImg-74a0c8b1.png",
     title: "Best Practices for Responsive Web Design",
     description:
       "Discover the key principles and techniques for creating responsive web designs that look great on any device.",
