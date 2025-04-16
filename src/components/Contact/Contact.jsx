@@ -109,7 +109,7 @@ const Contact = () => {
               Email
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              trackstudio003@gmail.com
+              trackstudioxxx@gmail.com
             </p>
           </div>
           <div className='contact__card'>
