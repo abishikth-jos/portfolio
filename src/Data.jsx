@@ -495,7 +495,7 @@ export const testimonial = [
 export const post = [
   {
     id: 1,
-    date: "October 31, 2022",
+    date: "August 28, 2021",
     imgURL:
       "https://trackstudio.vercel.app/assets/AutoForwardImg-f00b6e79.png",
     title: "AutoForward Ts Bot | Tutorial Part 1",
@@ -505,83 +505,21 @@ export const post = [
   },
   {
     id: 2,
-    date: "November 19, 2022",
+    date: "August 29, 2021",
     imgURL: "https://trackstudio.vercel.app/assets/AutoForwardImg-f00b6e79.png",
     title: "AutoForward Ts Bot | Tutorial Part 2",
     description:
-      "Explore the basics of Vue.js, a progressive JavaScript framework for building user interfaces.",
-    url: "https://www.youtube.com/watch?v=6ts9qN9JgLk",
+      "A tutorial video on how to use AutoForward Ts Bot Part 2",
+    url: "https://www.youtube.com/watch?v=qrPCNhd-33g&t",
   },
   {
     id: 3,
-    date: "April 12, 2022",
+    date: "October 14, 2021",
     imgURL:
       "https://trackstudio.vercel.app/assets/AutoCaptionImg-74a0c8b1.png",
-    title: "Best Practices for Responsive Web Design",
+    title: "AutoCaption Ts Bot | Tutorail Part 1",
     description:
-      "Discover the key principles and techniques for creating responsive web designs that look great on any device.",
-  },
-  {
-    id: 4,
-    date: "March 5, 2022",
-    imgURL:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--CHCog3Bn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/3200/1%2AtiS4RzayAJdIeTEkNL1ztw.png",
-    title: "Mastering CSS Flexbox",
-    description:
-      "Get up to speed with CSS Flexbox, a powerful layout tool for building modern, flexible, and responsive web designs.",
-  },
-  {
-    id: 5,
-    date: "June 25, 2022",
-    imgURL:
-      "https://silktide.com/app/uploads/2021/05/We-analyzed-6554-websites-1024x576.jpg",
-    title: "Creating Accessible Web Content",
-    description:
-      "Learn how to make your web content more accessible to users with disabilities, including tips for designing for screen readers and other assistive technologies.",
-  },
-  {
-    id: 6,
-    date: "November 19, 2022",
-    imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6OyXMz4TaaY4FJOg00N6c7zsYKuqAAA8VUA&usqp=CAU",
-    title: "10 Tips for Writing Clean Code in JavaScript",
-    description:
-      "Discover best practices for writing clean, maintainable, and efficient JavaScript code that will help you become a better developer.",
-  },
-  {
-    id: 7,
-    date: "November 19, 2022",
-    imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_lU_0yLYzO5o9oKAeShqM-8y_s1BWudtcyQ&usqp=CAU",
-    title: "The Future of Frontend Development: What to Expect in 2022",
-    description:
-      "Explore the latest trends and technologies in frontend development.",
-  },
-  {
-    id: 8,
-    date: "November 19, 2022",
-    imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQANuqChNWRh2a5AbtgPZYPnAogzqDsBQ-dAg&usqp=CAU",
-    title: "10 Essential Tools for Every Frontend Developer",
-    description:
-      "Check out our list of must-have tools for frontend developers, from code editors.",
-  },
-  {
-    id: 9,
-    date: "November 19, 2022",
-    imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpPs_cWDHKLvC45gy0btz4sNfD9LOArjcdA&usqp=CAU",
-    title: "Mastering the Fundamentals of Web Development",
-    description:
-      "Learn the basics of web development, including HTML, CSS, and JavaScript, and start building your own web applications from scratch.",
-  },
-  {
-    id: 10,
-    date: "November 19, 2022",
-    imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7KXJ50sZkMTcGcKBRpGj3Vnwz8g6iTnqKSQ&usqp=CAU",
-    title: "Creating Beautiful and Responsive UI Designs with CSS Grid",
-    description:
-      "Get up to speed with CSS Grid, a powerful layout tool for creating complex and responsive user interfaces that adapt to any screen size.",
+      "A tutorial video on how to use AutoCaption Ts Bot Part 1",
+    url: "https://www.youtube.com/watch?v=YlwOsVcVuHM",
   },
 ];
