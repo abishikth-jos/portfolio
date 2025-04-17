@@ -77,13 +77,13 @@ const Services = () => {
               <p className='min-h-[205px] sm:min-h-[175px] text-textColor dark:text-textColorDark'>
                 {description}
               </p>
-              <a
-                href='#'
-                className='inline-flex font-[700] text-titleColor dark:text-titleColorDark items-center'
-              >
-                See pricing
-                <FaArrowRight className='text-primaryColor ml-[20px] hover:ml-[15px] transition-all duration-[0.3s] ease-[cubic-bezier(0.3,0,0.3,1)]' />
-              </a>
+//              <a
+//                href='#'
+//                className='inline-flex font-[700] text-titleColor dark:text-titleColorDark items-center'
+//              >
+//                See pricing
+//                <FaArrowRight className='text-primaryColor ml-[20px] hover:ml-[15px] transition-all duration-[0.3s] ease-[cubic-bezier(0.3,0,0.3,1)]' />
+//              </a>
               <img
                 src={shapeTwo}
                 alt='shape for design service cards'
