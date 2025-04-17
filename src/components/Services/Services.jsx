@@ -82,7 +82,7 @@ const Services = () => {
                 className='inline-flex font-[700] text-titleColor dark:text-titleColorDark items-center'
               >
                .
-                <FaArrowRight className='text-primaryColor ml-[20px] hover:ml-[15px] transition-all duration-[0.3s] ease-[cubic-bezier(0.3,0,0.3,1)]' />
+//                <FaArrowRight className='text-primaryColor ml-[20px] hover:ml-[15px] transition-all duration-[0.3s] ease-[cubic-bezier(0.3,0,0.3,1)]' />
               </a>
               <img
                 src={shapeTwo}
