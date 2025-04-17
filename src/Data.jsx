@@ -53,38 +53,38 @@ export const links = [
 export const service = [
   {
     id: 1,
-    name: "Web Development",
+    name: "Bot Development",
     title: "Custom Development",
     description:
-      "I build stunning websites using React.js, Next.js, and modern JavaScript that aren't just beautiful, but also fast and interactive. Your ideas deserve a website that stands out from the crowd!",
+      "We build stunning bots using Python, Which is fast and interactive. Our ideas deserve a better Bots that stands out from the crowd!",
   },
   {
     id: 2,
     name: "User Experience",
     title: "User Experience Design",
     description:
-      "Let me craft an experience your users will love! I create intuitive, engaging interfaces that not only look great but feel natural to use, keeping your visitors coming back for more.",
+      "We craft best users interface that you will love! We create intuitive, engaging interfaces that not only look great but feel natural to use, keeping your visitors coming back for more.",
   },
   {
     id: 3,
-    name: "Web Optimization",
+    name: "Bot Optimization",
     title: "Speed Optimization",
     description:
-      "Is your website crawling when it should be flying? I'll tune up your site's performance so it loads in a flash, boosting your SEO rankings and keeping impatient visitors from clicking away.",
+      "We tune up our bots performance so it loads in a flash, boosting your rankings and keeping impatient visitors from clicking away.",
   },
   {
     id: 4,
-    name: "Web Maintenance",
+    name: "Bot Maintenance",
     title: "Maintenance and Support",
     description:
-      "Your website needs love too! I'll handle all the behind-the-scenes work—bug fixes, security updates, and content refreshes—so you can focus on what you do best: growing your business.",
+      "Our bots need love too! We will handle all the behind-the-scenes work—bug fixes, security updates, and content refreshes—so you can focus on what you do best: growing your business.",
   },
   {
     id: 5,
-    name: "Interactive Effects",
-    title: "Animations and Effects",
+    name: "Filmophile",
+    title: "Get any movies",
     description:
-      "Want to wow your visitors? I'll bring your website to life with eye-catching animations and interactive elements using CSS, framer-motion, and three.js that will leave a lasting impression.",
+      "Want to get your favourite movies? We will bring you the best movies to life with all security provided from our AnyLink network.",
   },
 ];
 
